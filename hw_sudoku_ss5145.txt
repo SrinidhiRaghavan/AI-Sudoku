@@ -1,0 +1,25 @@
+AC-3:
+3 puzzles were solved using AC3. The three puzzles which were solved were:
+Puzzle - 1: 
+Before solving: 003020600900305001001806400008102900700000008006708200002609500800203009005010300
+After solving: 483921657967345821251876493548132976729564138136798245372689514814253769695417382
+Running time: 0.06 seconds 
+
+
+Puzzle - 2
+Before solving: 000260701680070090190004500820100040004602900050003028009300074040050036703018000
+After solving: 435269781682571493197834562826195347374682915951743628519326874248957136763418259
+Running time: 0.05 seconds 
+
+Puzzle - 332
+Before solving: 000001000020000008691200000000000014102506003800020506005000000730000000006319405
+After solving: 358471629427963158691285347569738214142596783873124596915647832734852961286319475
+Running time: 0.09677457809448242
+
+The total time taken for executing all the 400 puzzles in the file is 26.88 seconds 
+This behaviour of AC3 was not expected as just 3 puzzles were solved from 400 ones 
+
+
+Backtracking: 
+All the puzzles were solved using Backtracking. MRV was used to choose the next unassigned variable and forward checking was used to reduce the size of the domain.
+The running time per puzzle was around 15-20 seconds. 
