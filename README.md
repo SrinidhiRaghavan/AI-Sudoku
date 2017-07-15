@@ -46,3 +46,18 @@ python wrapperAC3.py
 
 
 ## Result ## 
+
+The result after executing the AC3 algorithm for the input_string: 003020600900305001001806400008102900700000008006708200002609500800203009005010300, we get 
+
+![image](https://user-images.githubusercontent.com/21295042/28235940-2c65acb0-68e7-11e7-9b94-1fdee19b73b5.png)
+
+
+
+## Observations ##
+
+400 puzzles from sudokus_start was tried. The total time taken for executing all the 400 puzzles in the file is 26.88 seconds 
+The behaviour of AC3 was not expected as just 3 puzzles were solved from 400 ones. 
+
+However, all the puzzles were solved using Backtracking. MRV was used to choose the next unassigned variable and forward checking was used to reduce the size of the domain. The running time per puzzle was around 15-20 seconds. 
+
+
